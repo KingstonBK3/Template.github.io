@@ -2,21 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Bpotstrap landing</title>
+	<title>Bootstrap landing</title>
 </head>
 <body>
+	<!-- First Section started -->
 	<div class="section">
-		<div class="contaier">
+		<div class="container">
+			<!-- First row started -->
 			<div class="row">
-				<h1 class="header">
-					<span></span>
-					<strong></strong>	
-				</h1>
+				<div class="col-lg-6 offset-lg-3">
+					<h1 class="header text-center">
+						<span>Liverpool season 18/19 and 19/20</span>
+						<strong class="text-uppercase">Review</strong>	
+					</h1>
+				</div>
+			</div>
+			<!-- First row ended -->
+			<!-- Second row started -->
+			<div class="row">
+				<div class="col-lg-6 offset-lg-1">
+					<div class="video">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/gSjQpFih9EA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="form">
+						<p class="form-header text-center">Enter your email</p>
+						<form action="#">
+							<input type="text" class="form-control input-lg" placeholder="Your Name:">
+							<input type="text" class="form-control input-lg" placeholder="Your Email:">
+							<button class="btn btn-primary btn-lg btn-block form-btn">Get instructions</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- Second row ended -->
+		</div>
+	</div>
+	<!-- First Section ended -->
+
+	<!-- Second Section started -->
+	<div class="section">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg12 col-xs-12 col-sm-12">
+				<h2 class="section-header text-uppercase text-center">
+					Tournaments
+				</h2>
+			</div>
+		</div>
+		<div class="feature text-center">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/tournaments/1.png" alt="1 feature">
+						<p>UEFA Chamions League</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/tournaments/2.png" alt="2 feature">
+						<p>Premier League 19/20</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/tournaments/3.png" alt="3 feature">
+						<p>UEFA Super Cup</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/tournaments/4.png" alt="4 feature">
+						<p>UEFA World Cup</p>
+					</div>
+				</div>
+			</div>
+			<!-- Button(Get instructions) -->
+			<button class="btn btn-primary btn-lg form-btn">Get instructions</button>
 			</div>
 		</div>
 	</div>
+	<!-- Second Section ended -->
 </body>
 </html>
