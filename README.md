@@ -2,4 +2,4 @@
 glo-academy lessons
 
 
-link to github pages:https://kingstonbk3.github.io/Template.github.io/src/  
+[Landing example](https://kingstonbk3.github.io/Template.github.io/src/"Discription here")  
